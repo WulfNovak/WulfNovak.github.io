@@ -2,9 +2,47 @@
 <html>
 <head>
     <title>Leaflet Map</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+        #container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+        #left {
+            width: 33.33%;
+            background-color: #f0f0f0;
+            padding: 10px;
+            box-sizing: border-box;
+            overflow-y: auto; /* Add scroll if content overflows */
+        }
+        #map-container {
+            width: 66.67%;
+            height: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>My Leaflet Map</h1>
-    <iframe src="trend_choropleth.html" width="100%" height="100%"></iframe>
+    <div id="container">
+        <div id="left">
+            <!-- Add content for the left 1/3rd of the screen here -->
+            <h1>Left Section</h1>
+            <p>This is the left section of the page, occupying one-third of the screen width.</p>
+        </div>
+        <div id="map-container">
+            <iframe src="map.html"></iframe>
+        </div>
+    </div>
 </body>
 </html>
