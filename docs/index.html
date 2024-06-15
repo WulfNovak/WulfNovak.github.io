@@ -38,7 +38,7 @@
             align-items: center; /* Center align items vertically *
             gap: 1px; /* Add gap between buttons */
         }
-        .bottom-left button {
+        .map-button: {
             flex: 1 1 auto;
             font-size: 16px;
             background-color: darkgrey;
@@ -75,12 +75,12 @@
                 <p>Below there will be buttons to toggle between the different visualizations created from the Emissions data analysis</p>
             </div>
             <div class="bottom-left">
-                <button onclick="loadMap('trend_choropleth.html')">Min-Max Normalized Slope</button>
-                <button onclick="loadMap('binary_trend_map.html')">Rising / Declining Emissions Binary</button>
-                <button onclick="loadMap('tot_emissions_trend.html')">Total Emissions Slope (not normalized)</button>
-                <button onclick="loadMap('per_capita_trend.html')">Rising / Declining Trend Per Capita</button>
-                <button onclick="loadMap('map5.html')">Map 5</button>
-                <button onclick="loadMap('map6.html')">Map 6</button>
+                <button class="map-button" onclick="loadMap('trend_choropleth.html')">Min-Max Normalized Slope</button>
+                <button class="map-button" onclick="loadMap('binary_trend_map.html')">Rising / Declining Emissions Binary</button>
+                <button class="map-button" onclick="loadMap('tot_emissions_trend.html')">Total Emissions Slope (not normalized)</button>
+                <button class="map-button" onclick="loadMap('per_capita_trend.html')">Rising / Declining Trend Per Capita</button>
+                <button class="map-button" onclick="loadMap('map5.html')">Map 5</button>
+                <button class="map-button" onclick="loadMap('map6.html')">Map 6</button>
             </div>
         </div>
         <div id="map-container">
