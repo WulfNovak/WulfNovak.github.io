@@ -55,7 +55,6 @@
             display: block;
             box-sizing: border-box;
             cursor: pointer;
-            opacity: 1;
             margin: 0;
             padding: 0;
             transition: 0.3s;
@@ -112,7 +111,24 @@
             }
             button.classList.add('selected');
             selectedButton = button;
+
+            function loadGIF(gifPath) {
+            const container = document.getElementById('map-container');
+            const iframe = document.getElementById('map-frame');
+            iframe.style.display = 'none'; // Hide the iframe
+
+            // Create and configure the img element for the GIF
+            const img = document.createElement('img');
+            img.src = gifPath;
+            img.alt = 'GIF';
+            img.style.width = '100%';
+            img.style.height = 'auto';
+
+            // Clear the container and add the img element
+            container.innerHTML = '';
+            container.appendChild(img);
+            }
         </script>
-    </div>
+
 </body>
 </html>
