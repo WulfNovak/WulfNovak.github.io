@@ -66,18 +66,13 @@
         .map-button.selected {
             background-color: lightgrey;
         }
-        .gif-animation{
-            max-width: 100%;
-            height: auto; 
-            display: block;
-        }
         #map-container {
             width: 66.67%;
             height: 100%;
         }
         iframe {
             width: 100%;
-            height: 100%;
+            height: auto;
             border: none;
         }
     </style>
@@ -98,7 +93,7 @@
                 <button class="map-button" onclick="loadMap('binary_trend_map.html')">Rising / Declining Emissions Binary</button>
                 <button class="map-button" onclick="loadMap('cluster_binary_trend.html')">Rising / Declining Emissions by Longitudinal Clustering</button>
                 <button class="map-button" onclick="loadMap('per_capita_trend.html')">Rising / Declining Trend Per Capita</button>
-                <button class="gif-animation" onclick="loadMap('norm_tot_animation.gif')">Animated Normalized Emissions from 2000-2022</button>
+                <button class="map-button" onclick="loadMap('norm_tot_animation.gif')">Animated Normalized Emissions from 2000-2022</button>
             </div>
         </div>
         <div id="map-container">
