@@ -89,33 +89,16 @@
             </div>
             <div class="bottom-left">
                 <button class="map-button" onclick="loadMap('trend_choropleth.html')">Min-Max Normalized Slope</button>
-                <button class="map-button" onclick="loadMap('binary_trend_map.html')">Rising / Declining Emissions Binary</button>
                 <button class="map-button" onclick="loadMap('tot_emissions_trend.html')">Total Emissions Slope (not normalized)</button>
+                <button class="map-button" onclick="loadMap('binary_trend_map.html')">Rising / Declining Emissions Binary</button>
+                <button class="map-button" onclick="loadMap('cluster_binary_trend.html')">Rising / Declining Emissions by Longitudinal Clustering</button>
                 <button class="map-button" onclick="loadMap('per_capita_trend.html')">Rising / Declining Trend Per Capita</button>
-                <button class="map-button" onclick="loadMap('norm_tot_animation.gif')">Normalized Emissions from 2000-2022</button>
-                <button class="map-button" onclick="loadMap('map6.html')">Map 6</button>
+                <button class="map-button" onclick="loadMap('norm_tot_animation.gif')">Animated Normalized Emissions from 2000-2022</button>
             </div>
         </div>
         <div id="map-container">
             <iframe id="map-frame" src="trend_choropleth.html"></iframe>
         </div>
     </div>
-
-    <script>
-        let selectedButton = null;
-
-        function loadMap(mapFile, button) {
-            // Update the iframe src to load the selected map
-            document.getElementById('map-frame').src = mapFile;
-
-            // Change the button appearance
-            if (selectedButton) {
-                selectedButton.classList.remove('selected');
-            }
-            button.classList.add('selected');
-            selectedButton = button;
-        }
-    </script>
-    
 </body>
 </html>
