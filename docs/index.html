@@ -70,9 +70,9 @@
             width: 66.67%;
             height: 100%;
         }
-        iframe {
+        image-frame {
             width: 100%;
-            height: auto;
+            height: 100%;
             border: none;
         }
     </style>
@@ -93,17 +93,22 @@
                 <button class="map-button" onclick="loadMap('binary_trend_map.html')">Rising / Declining Emissions Binary</button>
                 <button class="map-button" onclick="loadMap('cluster_binary_trend.html')">Rising / Declining Emissions by Longitudinal Clustering</button>
                 <button class="map-button" onclick="loadMap('per_capita_trend.html')">Rising / Declining Trend Per Capita</button>
-                <button class="map-button" onclick="loadMap('norm_tot_animation.gif')">Animated Normalized Emissions from 2000-2022</button>
+                <button class="map-button" onclick="displayGIF('norm_tot_animation.gif')">Animated Normalized Emissions from 2000-2022</button>
             </div>
         </div>
         <div id="map-container">
-            <iframe id="map-frame" src="trend_choropleth.html"></iframe>
+            <image-frame id="map-frame" src="trend_choropleth.html"></iframe>
         </div>
     </div>
 
     <script>
         let selectedButton = null;
 
+        function displayGIF(gifPath) {
+            const container = document.getElementById('map-container');
+            container.innerHTML = `<img src="${gifPath}" alt="GIF" style="width: 100%; height: auto;">`;
+        }
+        
         function loadMap(mapFile, button) {
             // Update the iframe src to load the selected map
             document.getElementById('map-frame').src = mapFile;
