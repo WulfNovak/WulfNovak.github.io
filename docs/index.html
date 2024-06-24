@@ -102,6 +102,17 @@
         <script>
         let selectedButton = null;
 
+        function loadMap(mapFile, button) {
+            // Update the iframe src to load the selected map
+            document.getElementById('map-frame').src = mapFile;
+            
+            // Change the button appearance
+            if (selectedButton) {
+                selectedButton.classList.remove('selected');
+            }
+            button.classList.add('selected');
+            selectedButton = button;
+            
         function loadGIF(gifPath) {
             const container = document.getElementById('map-container');
             const iframe = document.getElementById('map-frame');
@@ -118,17 +129,6 @@
             container.innerHTML = '';
             container.appendChild(img);
         }
-
-        function loadMap(mapFile, button) {
-            // Update the iframe src to load the selected map
-            document.getElementById('map-frame').src = mapFile;
-            
-            // Change the button appearance
-            if (selectedButton) {
-                selectedButton.classList.remove('selected');
-            }
-            button.classList.add('selected');
-            selectedButton = button;
 
         </script>
     </div>
