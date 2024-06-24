@@ -100,18 +100,18 @@
         </div>
         
         <script>
-        let selectedButton = null;
-
-        function loadMap(mapFile, button) {
-            // Update the iframe src to load the selected map
-            document.getElementById('map-frame').src = mapFile;
-            
-            // Change the button appearance
-            if (selectedButton) {
-                selectedButton.classList.remove('selected');
-            }
-            button.classList.add('selected');
-            selectedButton = button;
+            let selectedButton = null;
+    
+            function loadMap(mapFile, button) {
+                // Update the iframe src to load the selected map
+                document.getElementById('map-frame').src = mapFile;
+                
+                // Change the button appearance
+                if (selectedButton) {
+                    selectedButton.classList.remove('selected');
+                }
+                button.classList.add('selected');
+                selectedButton = button;
         </script>
 
 </body>
