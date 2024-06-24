@@ -117,18 +117,18 @@
             function loadGIF(gifPath) {
             const container = document.getElementById('map-container');
             const iframe = document.getElementById('map-frame');
-                iframe.style.display = 'none'; // Hide the iframe
+            iframe.style.display = 'none'; // Hide the iframe
 
             // Create and configure the img element for the GIF
             const img = document.createElement('img');
-                img.src = gifPath;
-                img.alt = 'GIF';
-                img.style.width = '100%';
-                img.style.height = 'auto';
+            img.src = gifPath;
+            img.alt = 'GIF';
+            img.style.width = '100%';
+            img.style.height = 'auto';
 
             // Clear the container and add the img element
-                container.innerHTML = '';
-                container.appendChild(img);
+            container.innerHTML = '';
+            container.appendChild(img);
             }
         </script>
 
