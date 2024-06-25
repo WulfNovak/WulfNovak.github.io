@@ -68,11 +68,18 @@
         #map-container {
             width: 66.67%;
             height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
         }
-        iframe {
+        iframe, img {
             width: 100%;
             height: 100%;
             border: none;
+        }
+        img {
+            object-fit: cover;
         }
     </style>
 </head>
@@ -92,7 +99,7 @@
                 <button class="map-button" onclick="loadMap('binary_trend_map.html')">Rising / Declining Emissions Binary</button>
                 <button class="map-button" onclick="loadMap('cluster_binary_trend.html')">Rising / Declining Emissions by Longitudinal Clustering</button>
                 <button class="map-button" onclick="loadMap('per_capita_trend.html')">Rising / Declining Trend Per Capita</button>
-                <button class="map-button" onclick="loadGIF('norm_tot_animation.gif')">Animated Normalized Emissions from 2000-2022</button>
+                <button class="map-button" onclick="loadMap('norm_tot_animation.gif')">Animated Normalized Emissions from 2000-2022</button>
             </div>
         </div>
         <div id="map-container">
@@ -103,32 +110,25 @@
             let selectedButton = null;
     
             function loadMap(mapFile, button) {
-                // Update the iframe src to load the selected map
-                document.getElementById('map-frame').src = mapFile;
-                
                 // Change the button appearance
                 if (selectedButton) {
                     selectedButton.classList.remove('selected');
                 }
                 button.classList.add('selected');
                 selectedButton = button;
-            }
 
-            function loadGIF(gifPath) {
-            const container = document.getElementById('map-container');
-            const iframe = document.getElementById('map-frame');
-            iframe.style.display = 'none'; // Hide the iframe
+                const mapContainer = document.getElementById('map-container');
+                mapContainer.innerHTML = '';
 
-            // Create and configure the img element for the GIF
-            const img = document.createElement('img');
-            img.src = gifPath;
-            img.alt = 'GIF';
-            img.style.width = '100%';
-            img.style.height = 'auto';
-
-            // Clear the container and add the img element
-            container.innerHTML = '';
-            container.appendChild(img);
+                if (mapFile.endsWith('.gif')) {
+                    const img = document.createElement('img');
+                    img.src = mapFile;
+                    mapContainer.appendChild(img);
+                } else {
+                    const iframe = document.createElement('iframe');
+                    iframe.src = mapFile;
+                    mapContainer.appendChild(iframe);
+                }
             }
         </script>
 
