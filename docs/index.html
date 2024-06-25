@@ -110,7 +110,7 @@
         </div>
         <div id="map-container">
             <iframe id="map-frame" src="trend_choropleth.html"></iframe>
-            <img id="map-frame" src="norm_tot_animation.gif"></img>
+            <img id="img-frame" src="norm_tot_animation.gif"></img>
         </div>
         
         <script>
@@ -119,7 +119,8 @@
             function loadMap(mapFile, button) {
                 // Update the iframe src to load the selected map
                 document.getElementById('map-frame').src = mapFile;
-                
+                document.getElementById('img-frame').src = mapFile;
+
                 // Change the button appearance
                 if (selectedButton) {
                     selectedButton.classList.remove('selected');
