@@ -107,32 +107,20 @@
         </div>
         
         <script>
-            let selectedButton = document.querySelector('.map-button');
+            let selectedButton = null;
     
             function loadMap(mapFile, button) {
+                // Update the iframe src to load the selected map
+                document.getElementById('map-frame').src = mapFile;
+                
                 // Change the button appearance
                 if (selectedButton) {
                     selectedButton.classList.remove('selected');
                 }
                 button.classList.add('selected');
                 selectedButton = button;
-
-                const mapContainer = document.getElementById('map-container');
-                mapContainer.innerHTML = '';
-
-                if (mapFile.endsWith('.gif')) {
-                    const img = document.createElement('img');
-                    img.src = mapFile;
-                    mapContainer.appendChild(img);
-                } else {
-                    const iframe = document.createElement('iframe');
-                    iframe.src = mapFile;
-                    mapContainer.appendChild(iframe);
-                }
             }
 
-            // Ensure the initial selected button is highlighted
-            document.querySelector('.map-button').classList.add('selected');
         </script>
 
 </body>
