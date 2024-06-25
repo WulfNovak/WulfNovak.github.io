@@ -82,10 +82,8 @@
             margin: 0;
         }
         img {
-            object-fit: cover;
-            height: auto;
-            max-width: 100%;
-            width: 100%;
+            height: 100%;
+            width: auto;
         }
     </style>
 </head>
@@ -110,25 +108,19 @@
         </div>
         <div id="map-container">
             <iframe id="map-frame" src="trend_choropleth.html"></iframe>
-            <img id="img-frame" src="norm_tot_animation.gif"></img>
         </div>
         
         <script>
             let selectedButton = null;
     
-            function loadMap(mapFile, button) {
-                // Update the iframe src to load the selected map
-                document.getElementById('map-frame').src = mapFile;
-                document.getElementById('img-frame').src = mapFile;
-
-                // Change the button appearance
-                if (selectedButton) {
-                    selectedButton.classList.remove('selected');
+            function loadMap(src, button) {
+                const container = document.getElementById('map-container');
+                if (type === 'iframe') {
+                    container.innerHTML = `<iframe src="${src}" style="width: 100%; height: 100%; border: none;"></iframe>`;
+                } else if (type === 'img') {
+                    container.innerHTML = `<img src="${src}" style="width: 100%; height: 100%; border: none;">`;
                 }
-                button.classList.add('selected');
-                selectedButton = button;
             }
-
         </script>
 
 </body>
