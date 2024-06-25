@@ -81,10 +81,6 @@
             border: none;
             margin: 0;
         }
-        img {
-            height: 100%;
-            width: auto;
-        }
     </style>
 </head>
 <body>
@@ -102,8 +98,8 @@
                 <button class="map-button" onclick="loadMap('tot_emissions_trend.html')">Total Emissions Slope (not normalized)</button>
                 <button class="map-button" onclick="loadMap('binary_trend_map.html')">Rising / Declining Emissions Binary</button>
                 <button class="map-button" onclick="loadMap('cluster_binary_trend.html')">Rising / Declining Emissions by Longitudinal Clustering</button>
-                <button class="map-button" onclick="loadMap('per_capita_trend.html', 'iframe')">Rising / Declining Trend Per Capita</button>
-                <button class="map-button" onclick="loadMap('norm_tot_animation.gif', 'img')">Animated Normalized Emissions from 2000-2022</button>
+                <button class="map-button" onclick="loadMap('per_capita_trend.html')">Rising / Declining Trend Per Capita</button>
+                <button class="map-button" onclick="loadMap('norm_tot_animation.gif')">Animated Normalized Emissions from 2000-2022</button>
             </div>
         </div>
         <div id="map-container">
@@ -113,13 +109,16 @@
         <script>
             let selectedButton = null;
     
-            function loadMap(src, button) {
-                const container = document.getElementById('map-container');
-                if (type === 'iframe') {
-                    container.innerHTML = `<iframe src="${src}" style="width: 100%; height: 100%; border: none;"></iframe>`;
-                } else if (type === 'img') {
-                    container.innerHTML = `<img src="${src}" style="width: 100%; height: 100%; border: none;">`;
+            function loadMap(mapFile, button) {
+                // Update the iframe src to load the selected map
+                document.getElementById('map-frame').src = mapFile;
+
+                // Change the button appearance
+                if (selectedButton) {
+                    selectedButton.classList.remove('selected');
                 }
+                button.classList.add('selected');
+                selectedButton = button;
             }
         </script>
 
