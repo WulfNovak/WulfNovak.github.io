@@ -90,7 +90,7 @@
                 <h1>Country Total Emissions Visualizations</h1>
                 <p>The following interactive maps are created on total emissions data, and transformations of this variable from 2000 to 2022. More on methodology is available in the rising_declining_data_prep.R script. If the target variable has a significant negative slope, its emissions are declining. 
                     A significant positive slope indicates the emissions are rising. The Min-Max Normalization is as follows:
-                    (x - min(x)) / (max(x) - min(x)). This has been used to more easily compare between countries regardless of absolute emissions. Currently unable to correctly scale the animated map. </p>
+                    (x - min(x)) / (max(x) - min(x)), at the country level. This has been used to more easily compare between countries regardless of absolute emissions. Currently unable to correctly scale the animated map. </p>
             </div>
             <div class="bottom-left">
                 <button class="map-button" onclick="loadMap('tot_emissions_trend.html')">Total Emissions Slope (Not Normalized)</button>
