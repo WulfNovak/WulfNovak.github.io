@@ -88,8 +88,7 @@
         <div class="left-container">
             <div class="top-left">
                 <h1>Country Total Emissions Visualizations</h1>
-                <p>The following interactive maps are created on total emissions data, and transformations of this variable, from 2000 to 2022. 
-                   Countries whose year of max emissions occurred from 2017-2022 are omitted. If the target variable has a significant negative slope, its emissions are declining. 
+                <p>The following interactive maps are created on total emissions data, and transformations of this variable from 2000 to 2022. More on methodology is available in the rising_declining_data_prep.R script. If the target variable has a significant negative slope, its emissions are declining. 
                     A significant positive slope indicates the emissions are rising. The Min-Max Normalization is as follows:
                     (x - min(x)) / (max(x) - min(x)). This has been used to more easily compare between countries regardless of absolute emissions. Currently unable to correctly scale the animated map. </p>
             </div>
@@ -103,7 +102,7 @@
             </div>
         </div>
         <div id="map-container">
-            <iframe id="map-frame" src="trend_choropleth.html"></iframe>
+            <iframe id="map-frame" src="tot_emissions_trend.html"></iframe>
         </div>
         
         <script>
