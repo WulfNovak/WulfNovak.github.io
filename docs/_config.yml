@@ -72,9 +72,12 @@ content:
         description: | # this will include new lines to allow paragraphs
           New to Python, this experimental notebook analyzes pre-cleaned data, 
           then explores testing 4 model types with a range of hyperparameters
-          utilizing Halving Grid Search and Bayesian Optimization. Though not 
-          advisable given the input models, I then test Stacking and Voting classifiers as an 
-          ensemble model. More projects will be added to this project section.
+          utilizing Halving Grid Search and Bayesian Optimization. The implementation is general
+          and can easily be adapted to most any model available in scikit learn. Though not 
+          advisable given the input models, I then test Stacking and Voting classifiers as 
+          ensemble models. More projects will be added to this project section.
+
+          Project Keywords: Scikit Learn, Pandas, Seaborn, Numpy, LightGBM, Machine Learning Pipeline
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -89,11 +92,11 @@ content:
           May leave this section blank
         description: | # this will include new lines to allow paragraphs
             May give alternate description to resume bullet points. But for now: 
-            ● Built ETL pipelines to convene, clean, and engineer features from high-dimensional data across millions of utility customers and premises. 
-            ● Developed fine-tuned model pipelines to give premise level predictions, classify end-use, and cluster customer program impact profiles. 
-            ● Led collaboration with data engineering that improved critical premise append matching algorithm’s accuracy 14% and accelerated processing time by 6x. 
-            ● Developed and automated data ingestion for interactive dashboard that monitored high volume Advanced Meter Infrastructure data, facilitating daily insight into client data quality. 
-            ● Created informative and story driven presentations, with key decisions emphasized by statistics and clear visualizations, giving clients understanding of methodology and results.
+            ● Built ETL pipelines to convene, clean, and engineer features from high-dimensional data across millions of utility customers and premises. \n
+            ● Developed fine-tuned model pipelines to give premise level predictions, classify end-use, and cluster customer program impact profiles. \n
+            ● Led collaboration with data engineering that improved critical premise append matching algorithm’s accuracy 14% and accelerated processing time by 6x. \n
+            ● Developed and automated data ingestion for interactive dashboard that monitored high volume Advanced Meter Infrastructure data, facilitating daily insight into client data quality. \n
+            ● Created informative and story driven presentations, with key decisions emphasized by statistics and clear visualizations, giving clients understanding of methodology and results. \n
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -112,7 +115,7 @@ content:
   - title: About Me Section
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in programming, machine learning, organizations
+      Alongside my interests in programming, machine learning, and organizations. 
       - There will be a Leetcode Section
       - There will be a Leetcode Section
       - There will be a Leetcode Section
