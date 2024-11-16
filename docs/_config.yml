@@ -57,35 +57,55 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Python Project
+        title: Meta Transaction Risk Classification
         link: github.com/wulfnovak
         # link_text: Project Website
         additional_links:
           - title:  wulfnovak/Meta-Transaction-Risk-Classification
             icon: fab fa-github
-            url: github.com/sproogen/Meta-Transaction-Risk-Classification
+            url: github.com/wulfnovak/Meta-Transaction-Risk-Classification
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          First Python Project - Meta Transaction Risk Classification
+          First Project in Python 
         description: | # this will include new lines to allow paragraphs
-          New to Python, this experimental notebook analyzes pre-cleaned data, 
+          This experimental notebook analyzes pre-cleaned and simulated meta transaction data, 
           then explores testing 4 model types with a range of hyperparameters
           utilizing Halving Grid Search and Bayesian Optimization. The implementation is general
           and can easily be adapted to most any model available in scikit learn. Though not 
           advisable given the input models, I then test Stacking and Voting classifiers as 
           ensemble models. More projects will be added to this project section.
 
-          Project Keywords: Scikit Learn, Pandas, Seaborn, Numpy, LightGBM, Machine Learning Pipeline
+          Key Skills: Python, Scikit Learn, Pandas, Seaborn, Numpy, LightGBM, Machine Learning Pipeline
+          
+     -  layout: top-middle # perhaps this is removed or placed under the experience section
+        title: Rising or Declining Country Emissions
+        link: github.com/wulfnovak
+        # link_text: Project Website
+        additional_links:
+          - title:  wulfnovak/Meta-Transaction-Risk-Classification
+            icon: fab fa-github
+            url: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Data Analysis in R 
+        description: | # this will include new lines to allow paragraphs
+          This project categorizes countries as having rising or declining emissions from 2000-2022. 
+          Two methods are used, one which relies on there being a significant linear trend over the 
+          time period, and another that relies on longitudinal clustering. Both give similar results.
+
+          Key Skills: R, tidyverse, plotly, leaflet, gganimate, data visualization, longitudincal clustering
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: E Source (Wiland will be added next)
+        title: E Source
         link: https://www.esource.com/
-        # link_text: boringcompany.com
+        link_text: Boulder, Colorado
         sub_title: Data Scientist
         caption: April 2022 - November 2023
         quote: >
@@ -102,6 +122,22 @@ content:
             ● Developed and automated data ingestion for interactive dashboard that monitored high volume Advanced Meter Infrastructure data, facilitating daily insight into client data quality.
             
             ● Created informative and story driven presentations, with key decisions emphasized by statistics and clear visualizations, giving clients understanding of methodology and results.
+        - layout: left
+          title: Wiland
+          link: https://wiland.com/
+          link_text: Niwot, Colorado # can this be called location instead? 
+          sub_title: Client Solutions Statistician
+          caption: June 2019 - November 2021
+          quote: >
+            May leave this section blank
+          description: | 
+            ● Collaborated cross-functionally to resolve bottlenecks and drive high priority client work, leading to urgent deadlines being met. 
+            
+            ● Built automated analytical tools and reports to inform clients about their customers and marketing campaign performance. 
+            
+            ● Utilized machine learning (elastic net, random forest, xgboost) for 300+ clients, predicting response rate and total dollars for marketing campaigns. 
+            
+            ● Consulted sales and clients on customized models and campaign strategy decisions, designing data-driven strategies to maximize client growth.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -113,9 +149,7 @@ content:
         quote: >
           Probably remove this quote section
         description: | # this will include new lines to allow paragraphs
-          Began at community college with mediocre grades. 
-          In final semesters with challenging Statistics classes made the Dean's List
-          and was Vice President of the Statistics Club
+          Dean's List - Vice President of the Statistics Club
 
   - title: About Me Section
     layout: text
