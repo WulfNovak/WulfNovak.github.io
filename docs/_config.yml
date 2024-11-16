@@ -1,19 +1,19 @@
 ### Site Settings ###
 title               : FuturePortfolio
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      Here, there will be something 
+                      witty. Once seen, those reading 
+                      will immediately want to hire 
+                      me on the spot!
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : WulfNovak/WulfNovak.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : yousinix/portfolYOU
+remote_theme        : yousinix/portfolYOU # is this what I change?
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
 ### Plugins ###
 plugins:
   - jemoji
-
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
@@ -22,10 +22,9 @@ nav_exclude:                                            # The following paths ar
   - pages/index.md
   - documentation/partials/**                           # For Documentation Only
 
-
 ### Author Info ###
 author:
-  name              : Wulf Novak
+# name              : Wulf Novak
   image             : https://imgur.com/Pr1wSAB
 # behance           : your_username
 # dribbble          : your_username
@@ -55,7 +54,7 @@ permalink: /blog/:title
 ### Collections ###
 collections:
   projects:
-    output: true
+    output: False
     permalink: /projects/:name
   elements:                                             # For Documentation Only
     output: true                                        # For Documentation Only
