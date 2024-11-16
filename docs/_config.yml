@@ -78,8 +78,8 @@ content:
           ensemble models. More projects will be added to this project section.
 
           Key Skills: Python, Scikit Learn, Pandas, Seaborn, Numpy, LightGBM, Machine Learning Pipeline
-          
-     -  layout: top-middle # perhaps this is removed or placed under the experience section
+   content:       
+     -  layout: top-bottom # perhaps this is removed or placed under the experience section
         title: Rising or Declining Country Emissions
         link: github.com/wulfnovak
         # link_text: Project Website
@@ -122,6 +122,7 @@ content:
             ● Developed and automated data ingestion for interactive dashboard that monitored high volume Advanced Meter Infrastructure data, facilitating daily insight into client data quality.
             
             ● Created informative and story driven presentations, with key decisions emphasized by statistics and clear visualizations, giving clients understanding of methodology and results.
+      content:
         - layout: left
           title: Wiland
           link: https://wiland.com/
