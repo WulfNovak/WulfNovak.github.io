@@ -9,7 +9,7 @@ version: 2
 name: Wulf Novak  
 title: Data Scientist
 email: wulfnovak@gmail.com
-website: www.github.com/sproogen/resume-theme # unsure what to place here /wulfnovak/resume-theme?
+#website: www.github.com/sproogen/resume-theme # unsure what to place here /wulfnovak/resume-theme?
 
 # Dark Mode (true/false/never)
 darkmode: true
