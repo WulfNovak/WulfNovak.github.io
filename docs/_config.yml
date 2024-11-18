@@ -45,10 +45,17 @@ linkedin_username: wulf-novak
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
+about_title: Job Search
+#about_profile_image: images/profile.jpg # consider omitting to prevent bias
 about_content: | # this will include new lines to allow paragraphs
-  Under Construction
+  Complementary to my resume, this website explains gaps on my resume and several projects undertaken while unemployed.
+  
+  Concerning Resume Gaps: 
+  From Wiland to E Source - Resigned from Wiland to study for the GRE, apply to PhD programs, and volunteer. After not being accepted to my school of choice, I re-entered the job market and began working at E Source.
+
+  From E Source to Now - After being let go from E Source unexpectantly, I have maintained a full-time 'job' of job searching. In addition to applications and interviews, this has included: 
+  Learning Python, a Generative AI Course on LLMs, maintaining R and SQL skill, and upskilling through the projects listed below. 
+
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -73,7 +80,8 @@ content:
           pipeline that creates cross validated and fine-tuned models, gives results, and places
           into Voting and Stacking ensembles.
 
-          Model Pipeline: https://github.com/WulfNovak/Meta-Transaction-Risk-Classification/blob/main/meta_ensemble_pipeline.ipynb
+          Model Pipeline: 
+          - https://github.com/WulfNovak/Meta-Transaction-Risk-Classification/blob/main/meta_ensemble_pipeline.ipynb
        
           Key Skills: <mark>Python</mark>, <mark>Scikit Learn</mark>, <mark>Pandas</mark>, <mark>Seaborn</mark>, <mark>Numpy</mark>, <mark>LightGBM</mark>, <mark>Machine Learning Pipeline</mark>
         # title: Meta Transaction Risk Classification
@@ -160,63 +168,63 @@ content:
        
           Key Skills: <mark>Pandas</mark>, <mark>Numpy</mark>, <mark>SeaBorn</mark>
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: E Source
-        link: https://www.esource.com/
-        link_text: Boulder, Colorado
-        sub_title: Data Scientist
-        caption: April 2022 - November 2023
-        quote: >
-          May leave this section blank
-        description: | # this will include new lines to allow paragraphs
-          May give alternate description to resume bullet points. But for now: 
+  # - title: Experience # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: E Source
+  #       link: https://www.esource.com/
+  #       link_text: Boulder, Colorado
+  #       sub_title: Data Scientist
+  #       caption: April 2022 - November 2023
+  #       quote: >
+  #         May leave this section blank
+  #       description: | # this will include new lines to allow paragraphs
+  #         May give alternate description to resume bullet points. But for now: 
             
-          ● Built ETL pipelines to convene, clean, and engineer features from high-dimensional data across millions of utility customers and premises.
+  #         ● Built ETL pipelines to convene, clean, and engineer features from high-dimensional data across millions of utility customers and premises.
             
-          ● Developed fine-tuned model pipelines to give premise level predictions, classify end-use, and cluster customer program impact profiles.
+  #         ● Developed fine-tuned model pipelines to give premise level predictions, classify end-use, and cluster customer program impact profiles.
             
-          ● Led collaboration with data engineering that improved critical premise append matching algorithm’s accuracy 14% and accelerated processing time by 6x.
+  #         ● Led collaboration with data engineering that improved critical premise append matching algorithm’s accuracy 14% and accelerated processing time by 6x.
             
-          ● Developed and automated data ingestion for interactive dashboard that monitored high volume Advanced Meter Infrastructure data, facilitating daily insight into client data quality.
+  #         ● Developed and automated data ingestion for interactive dashboard that monitored high volume Advanced Meter Infrastructure data, facilitating daily insight into client data quality.
             
-          ● Created informative and story driven presentations, with key decisions emphasized by statistics and clear visualizations, giving clients understanding of methodology and results.
-      #content:
-      -  layout: left
-         title: Wiland
-         link: https://wiland.com/
-         link_text: Niwot, Colorado # can this be called location instead? 
-         sub_title: Client Solutions Statistician
-         caption: June 2019 - November 2021
-         quote: >
-           May leave this section blank
-         description: | 
-           ● Collaborated cross-functionally to resolve bottlenecks and drive high priority client work, leading to urgent deadlines being met. 
+  #         ● Created informative and story driven presentations, with key decisions emphasized by statistics and clear visualizations, giving clients understanding of methodology and results.
+  #     #content:
+  #     -  layout: left
+  #        title: Wiland
+  #        link: https://wiland.com/
+  #        link_text: Niwot, Colorado # can this be called location instead? 
+  #        sub_title: Client Solutions Statistician
+  #        caption: June 2019 - November 2021
+  #        quote: >
+  #          May leave this section blank
+  #        description: | 
+  #          ● Collaborated cross-functionally to resolve bottlenecks and drive high priority client work, leading to urgent deadlines being met. 
            
-           ● Built automated analytical tools and reports to inform clients about their customers and marketing campaign performance. 
+  #          ● Built automated analytical tools and reports to inform clients about their customers and marketing campaign performance. 
            
-           ● Utilized machine learning (elastic net, random forest, xgboost) for 300+ clients, predicting response rate and total dollars for marketing campaigns. 
+  #          ● Utilized machine learning (elastic net, random forest, xgboost) for 300+ clients, predicting response rate and total dollars for marketing campaigns. 
            
-           ● Consulted sales and clients on customized models and campaign strategy decisions, designing data-driven strategies to maximize client growth.
+  #          ● Consulted sales and clients on customized models and campaign strategy decisions, designing data-driven strategies to maximize client growth.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Colorado State University
-        caption: 2016 - 2019
-        sub_title: BSc Statistics
-        quote: >
-          Probably remove this quote section
-        description: | # this will include new lines to allow paragraphs
-          Dean's List - Vice President of the Statistics Club
+  # - title: Education # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: Colorado State University
+  #       caption: 2016 - 2019
+  #       sub_title: BSc Statistics
+  #       quote: >
+  #         Probably remove this quote section
+  #       description: | # this will include new lines to allow paragraphs
+  #         Dean's List - Vice President of the Statistics Club
 
   - title: About Me Section
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in programming and machine learning, my major interests include:
+      Other interests alongside those in machine learning and programming:
       - Triathlon
       - Business Strategy and Startups
       - Jazz Saxophone
