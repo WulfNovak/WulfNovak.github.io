@@ -48,10 +48,7 @@ linkedin_username: wulf-novak
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello My name is Wulf Novak, and I am really serious. This is my serious resume website. I may need to update this content section with something both MORE and less serious. 
-
-  I am most skilled in: <mark>Python</mark>, <mark>SQL</mark>, <mark>R</mark> and <mark>Machine Learning</mark>
-
+  Under Construction
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -61,7 +58,7 @@ content:
         #link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
         # link_text: Project Website
         additional_links:
-          - title:  wulfnovak/Meta-Transaction-Risk-Classification
+          - title:  github.com/wulfnovak/Meta-Transaction-Risk-Classification
             icon: fab fa-github
             url: github.com/wulfnovak/Meta-Transaction-Risk-Classification
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -105,7 +102,7 @@ content:
         #link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
         # link_text: Project Website
         additional_links:
-          - title:  wulfnovak/Meta-Transaction-Risk-Classification
+          - title:  github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
             icon: fab fa-github
             url: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -127,7 +124,7 @@ content:
         #link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
         # link_text: Project Website
         additional_links:
-          - title:  wulfnovak/Time-Series-Model-Comparison
+          - title:  github.com/WulfNovak/time_series_model_comparison
             icon: fab fa-github
             url: https://github.com/WulfNovak/time_series_model_comparison
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -146,7 +143,7 @@ content:
         #link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
         # link_text: Project Website
         additional_links:
-          - title:  wulfnovak/Time-Series-Model-Comparison
+          - title:  github.com/WulfNovak/python_data_cleaning
             icon: fab fa-github
             url: https://github.com/WulfNovak/python_data_cleaning
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -155,9 +152,10 @@ content:
         # quote: >
         #   Data Analysis in R 
         description: | # this will include new lines to allow paragraphs
-          Analyzes Alzheimers Disease and Health Again Data and provides functions that 
-          1. analyze variables of interest, 2. analyze missing data, 3. imputes date (opted against using), 
-          4. visualizes data by given question and stratum over time
+          Analyzes Alzheimers Disease and Health Again Data and provides functions that: 
+          Provides statistics for variables of interest and missing data, 
+          imputes data at the stratum level (opted against using), and visualizes data 
+          by given question and stratum over time.
        
           Key Skills: <mark>Pandas</mark>, <mark>Numpy</mark>, <mark>SeaBorn</mark>
 
@@ -217,11 +215,11 @@ content:
   - title: About Me Section
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in programming, machine learning, and organizations. 
-      - There will be a Leetcode Section
-      - There will be a Leetcode Section
-      - There will be a Leetcode Section
+      Alongside my interests in programming and machine learning, my major interests include:
       - Triathlon
+      - Business Strategy and Startups
+      - Jazz Saxophone
+    #  - Work/Study in local coffee shops
 
 # Footer
 footer_show_references: true
