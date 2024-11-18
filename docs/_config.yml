@@ -77,15 +77,9 @@ content:
           advisable given the input models, I then test Stacking and Voting classifiers as 
           ensemble models. More projects will be added to this project section.
 
-          Key Skills: Python, Scikit Learn, Pandas, Seaborn, Numpy, LightGBM, Machine Learning Pipeline
-        
-        quote_test: >
-          test quote 
-        description_test: | # this will include new lines to allow paragraphs
-          Am I beginning to understand yaml?
+          Key Skills: <mark>Python</mark>, <mark>Scikit Learn</mark>, <mark>Pandas</mark>, <mark>Seaborn</mark>, <mark>Numpy</mark>, <mark>LightGBM</mark>, <mark>Machine Learning Pipeline</mark>
 
-    content:
-      - layout: top-bottom # top-middle, top-bottom
+      #- layout: top-middle # top-middle, top-bottom
         title: Rising or Declining Country Emissions
         link: github.com/wulfnovak
         # link_text: Project Website
@@ -103,7 +97,7 @@ content:
           Two methods are used, one which relies on there being a significant linear trend over the 
           time period, and another that relies on longitudinal clustering. Both give similar results.
        
-          Key Skills: R, tidyverse, plotly, leaflet, gganimate, data visualization, longitudinal clustering
+          Key Skills: <mark>R</mark>, <mark>tidyverse</mark>, <mark>plotly</mark>, <mark>leaflet</mark>, <mark>gganimate</mark>, <mark>data visualization</mark>, <mark>longitudinal clustering</mark>
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -145,6 +139,7 @@ content:
            ● Utilized machine learning (elastic net, random forest, xgboost) for 300+ clients, predicting response rate and total dollars for marketing campaigns. 
            
            ● Consulted sales and clients on customized models and campaign strategy decisions, designing data-driven strategies to maximize client growth.
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
