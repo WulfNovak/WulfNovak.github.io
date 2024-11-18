@@ -79,67 +79,66 @@ content:
 
           Key Skills: Python, Scikit Learn, Pandas, Seaborn, Numpy, LightGBM, Machine Learning Pipeline
 #content:       
-  -  layout: top-bottom # perhaps this is removed or placed under the experience section
-     title: Rising or Declining Country Emissions
-     link: github.com/wulfnovak
-     # link_text: Project Website
-     additional_links:
-       - title:  wulfnovak/Meta-Transaction-Risk-Classification
-         icon: fab fa-github
-         url: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
-       # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-       #   icon: fab fa-github
+      - layout: top-bottom # perhaps this is removed or placed under the experience section
+        title: Rising or Declining Country Emissions
+        link: github.com/wulfnovak
+        # link_text: Project Website
+        additional_links:
+          - title:  wulfnovak/Meta-Transaction-Risk-Classification
+            icon: fab fa-github
+            url: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-     quote: >
-       Data Analysis in R 
-       description: | # this will include new lines to allow paragraphs
-       This project categorizes countries as having rising or declining emissions from 2000-2022. 
-       Two methods are used, one which relies on there being a significant linear trend over the 
-       time period, and another that relies on longitudinal clustering. Both give similar results.
+        quote: >
+          Data Analysis in R 
+        description: | # this will include new lines to allow paragraphs
+          This project categorizes countries as having rising or declining emissions from 2000-2022. 
+          Two methods are used, one which relies on there being a significant linear trend over the 
+          time period, and another that relies on longitudinal clustering. Both give similar results.
        
-       Key Skills: R, tidyverse, plotly, leaflet, gganimate, data visualization, longitudincal clustering
+          Key Skills: R, tidyverse, plotly, leaflet, gganimate, data visualization, longitudincal clustering
 
-  -  title: Experience # Title for the section
-     layout: list # Type of content section (list/text)
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
 #content:
-       - layout: left
-         title: E Source
-         link: https://www.esource.com/
-         link_text: Boulder, Colorado
-         sub_title: Data Scientist
-         caption: April 2022 - November 2023
+      - layout: left
+        title: E Source
+        link: https://www.esource.com/
+        link_text: Boulder, Colorado
+        sub_title: Data Scientist
+        caption: April 2022 - November 2023
+        quote: >
+          May leave this section blank
+        description: | # this will include new lines to allow paragraphs
+          May give alternate description to resume bullet points. But for now: 
+            
+          ● Built ETL pipelines to convene, clean, and engineer features from high-dimensional data across millions of utility customers and premises.
+            
+          ● Developed fine-tuned model pipelines to give premise level predictions, classify end-use, and cluster customer program impact profiles.
+            
+          ● Led collaboration with data engineering that improved critical premise append matching algorithm’s accuracy 14% and accelerated processing time by 6x.
+            
+          ● Developed and automated data ingestion for interactive dashboard that monitored high volume Advanced Meter Infrastructure data, facilitating daily insight into client data quality.
+            
+          ● Created informative and story driven presentations, with key decisions emphasized by statistics and clear visualizations, giving clients understanding of methodology and results.
+      #content:
+      -  layout: left
+         title: Wiland
+         link: https://wiland.com/
+         link_text: Niwot, Colorado # can this be called location instead? 
+         sub_title: Client Solutions Statistician
+         caption: June 2019 - November 2021
          quote: >
            May leave this section blank
-         description: | # this will include new lines to allow paragraphs
-            May give alternate description to resume bullet points. But for now: 
-            
-            ● Built ETL pipelines to convene, clean, and engineer features from high-dimensional data across millions of utility customers and premises.
-            
-            ● Developed fine-tuned model pipelines to give premise level predictions, classify end-use, and cluster customer program impact profiles.
-            
-            ● Led collaboration with data engineering that improved critical premise append matching algorithm’s accuracy 14% and accelerated processing time by 6x.
-            
-            ● Developed and automated data ingestion for interactive dashboard that monitored high volume Advanced Meter Infrastructure data, facilitating daily insight into client data quality.
-            
-            ● Created informative and story driven presentations, with key decisions emphasized by statistics and clear visualizations, giving clients understanding of methodology and results.
-      #content:
-       -  layout: left
-          title: Wiland
-          link: https://wiland.com/
-          link_text: Niwot, Colorado # can this be called location instead? 
-          sub_title: Client Solutions Statistician
-          caption: June 2019 - November 2021
-          quote: >
-            May leave this section blank
-          description: | 
-            ● Collaborated cross-functionally to resolve bottlenecks and drive high priority client work, leading to urgent deadlines being met. 
-            
-            ● Built automated analytical tools and reports to inform clients about their customers and marketing campaign performance. 
-            
-            ● Utilized machine learning (elastic net, random forest, xgboost) for 300+ clients, predicting response rate and total dollars for marketing campaigns. 
-            
-            ● Consulted sales and clients on customized models and campaign strategy decisions, designing data-driven strategies to maximize client growth.
-
+         description: | 
+           ● Collaborated cross-functionally to resolve bottlenecks and drive high priority client work, leading to urgent deadlines being met. 
+           
+           ● Built automated analytical tools and reports to inform clients about their customers and marketing campaign performance. 
+           
+           ● Utilized machine learning (elastic net, random forest, xgboost) for 300+ clients, predicting response rate and total dollars for marketing campaigns. 
+           
+           ● Consulted sales and clients on customized models and campaign strategy decisions, designing data-driven strategies to maximize client growth.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
