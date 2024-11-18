@@ -79,16 +79,13 @@ content:
 
           Key Skills: Python, Scikit Learn, Pandas, Seaborn, Numpy, LightGBM, Machine Learning Pipeline
         
-        quote: >
-          Does this work 
-        description: | # this will include new lines to allow paragraphs
-          Let's find out
+        quote_test: >
+          test quote 
+        description_test: | # this will include new lines to allow paragraphs
+          Am I beginning to understand yaml?
 
-
-          a
-          
-#content:       
-      - layout: top-bottom # perhaps this is removed or placed under the experience section
+    content:
+      - layout: top-bottom # top-middle, top-bottom
         title: Rising or Declining Country Emissions
         link: github.com/wulfnovak
         # link_text: Project Website
@@ -110,7 +107,7 @@ content:
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
-#content:
+    content:
       - layout: left
         title: E Source
         link: https://www.esource.com/
