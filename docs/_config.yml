@@ -126,8 +126,13 @@ content:
           Two methods are used, one which relies on there being a significant linear trend over the 
           time period, and another that relies on longitudinal clustering. Both give similar results.
 
-          A simple html/css website was created to show interactive choropleth world maps. This can be found here:
-          [Rebuilding https://wulfnovak.github.io/, will re-add website shortly]
+          A simple html/css website was created to show interactive choropleth world maps. 
+          
+          That can be found here:
+          - https://wulfnovak.github.io/docs/country_emissions
+          - https://wulfnovak.github.io/country_emissions
+          
+        url: https://wulfnovak.github.io/docs/country_emissions
        
           Key Skills: <mark>R</mark>, <mark>tidyverse</mark>, <mark>plotly</mark>, <mark>leaflet</mark>, <mark>gganimate</mark>, <mark>data visualization</mark>, <mark>longitudinal clustering</mark>
 
