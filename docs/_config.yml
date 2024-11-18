@@ -57,27 +57,45 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Meta Transaction Risk Classification
-        link: github.com/wulfnovak
+      - title: Rising or Declining Country Emissions
+        link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
         # link_text: Project Website
         additional_links:
           - title:  wulfnovak/Meta-Transaction-Risk-Classification
             icon: fab fa-github
-            url: github.com/wulfnovak/Meta-Transaction-Risk-Classification
+            url: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          First Project in Python 
+        # quote: >
+        #   Data Analysis in R 
         description: | # this will include new lines to allow paragraphs
-          This experimental notebook analyzes pre-cleaned and simulated meta transaction data, 
-          then explores testing 4 model types with a range of hyperparameters
-          utilizing Halving Grid Search and Bayesian Optimization. The implementation is general
-          and can easily be adapted to most any model available in scikit learn. Though not 
-          advisable given the input models, I then test Stacking and Voting classifiers as 
-          ensemble models. More projects will be added to this project section.
+          This project categorizes countries as having rising or declining emissions from 2000-2022. 
+          Two methods are used, one which relies on there being a significant linear trend over the 
+          time period, and another that relies on longitudinal clustering. Both give similar results.
+       
+          Key Skills: <mark>R</mark>, <mark>tidyverse</mark>, <mark>plotly</mark>, <mark>leaflet</mark>, <mark>gganimate</mark>, <mark>data visualization</mark>, <mark>longitudinal clustering</mark>
+        # title: Meta Transaction Risk Classification
+        # link: github.com/wulfnovak
+        # # link_text: Project Website
+        # additional_links:
+        #   - title:  wulfnovak/Meta-Transaction-Risk-Classification
+        #     icon: fab fa-github
+        #     url: github.com/wulfnovak/Meta-Transaction-Risk-Classification
+        #   # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   #   icon: fab fa-github
+        #   #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   First Project in Python 
+        # description: | # this will include new lines to allow paragraphs
+        #   This experimental notebook analyzes pre-cleaned and simulated meta transaction data, 
+        #   then explores testing 4 model types with a range of hyperparameters
+        #   utilizing Halving Grid Search and Bayesian Optimization. The implementation is general
+        #   and can easily be adapted to most any model available in scikit learn. Though not 
+        #   advisable given the input models, I then test Stacking and Voting classifiers as 
+        #   ensemble models. More projects will be added to this project section.
 
-          Key Skills: <mark>Python</mark>, <mark>Scikit Learn</mark>, <mark>Pandas</mark>, <mark>Seaborn</mark>, <mark>Numpy</mark>, <mark>LightGBM</mark>, <mark>Machine Learning Pipeline</mark>
+        #   Key Skills: <mark>Python</mark>, <mark>Scikit Learn</mark>, <mark>Pandas</mark>, <mark>Seaborn</mark>, <mark>Numpy</mark>, <mark>LightGBM</mark>, <mark>Machine Learning Pipeline</mark>
 
       #- layout: top-middle # top-middle, top-bottom
       - title: Rising or Declining Country Emissions
@@ -90,8 +108,8 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Data Analysis in R 
+        # quote: >
+        #   Data Analysis in R 
         description: | # this will include new lines to allow paragraphs
           This project categorizes countries as having rising or declining emissions from 2000-2022. 
           Two methods are used, one which relies on there being a significant linear trend over the 
