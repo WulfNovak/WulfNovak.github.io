@@ -78,6 +78,15 @@ content:
           ensemble models. More projects will be added to this project section.
 
           Key Skills: Python, Scikit Learn, Pandas, Seaborn, Numpy, LightGBM, Machine Learning Pipeline
+        
+        quote: >
+          Does this work 
+        description: | # this will include new lines to allow paragraphs
+          Let's find out
+
+
+          a
+          
 #content:       
       - layout: top-bottom # perhaps this is removed or placed under the experience section
         title: Rising or Declining Country Emissions
@@ -97,7 +106,7 @@ content:
           Two methods are used, one which relies on there being a significant linear trend over the 
           time period, and another that relies on longitudinal clustering. Both give similar results.
        
-          Key Skills: R, tidyverse, plotly, leaflet, gganimate, data visualization, longitudincal clustering
+          Key Skills: R, tidyverse, plotly, leaflet, gganimate, data visualization, longitudinal clustering
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -159,9 +168,6 @@ content:
       - There will be a Leetcode Section
       - There will be a Leetcode Section
       - Triathlon
-
-      Look at this cool image (probably remove this)
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
