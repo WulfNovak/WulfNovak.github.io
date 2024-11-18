@@ -80,8 +80,8 @@ content:
           Key Skills: <mark>Python</mark>, <mark>Scikit Learn</mark>, <mark>Pandas</mark>, <mark>Seaborn</mark>, <mark>Numpy</mark>, <mark>LightGBM</mark>, <mark>Machine Learning Pipeline</mark>
 
       #- layout: top-middle # top-middle, top-bottom
-        title: Rising or Declining Country Emissions
-        link: github.com/wulfnovak
+      - title: Rising or Declining Country Emissions
+        link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
         # link_text: Project Website
         additional_links:
           - title:  wulfnovak/Meta-Transaction-Risk-Classification
