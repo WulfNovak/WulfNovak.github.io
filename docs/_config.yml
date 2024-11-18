@@ -48,7 +48,11 @@ linkedin_username: wulf-novak
 about_title: Job Search
 #about_profile_image: images/profile.jpg # consider omitting to prevent bias
 about_content: | # this will include new lines to allow paragraphs
-  Complementary to my resume, this simple website explains gaps on my resume and several projects undertaken while unemployed.
+  Complementary to my resume, this simple website explains gaps on my resume and several projects undertaken while unemployed. 
+  Though my resume and projects may not match the perfect candidate, I am happy to build skills to solve your team's needs. 
+  I sincerely enjoy finding where organizations and clients can improve their processes and products with Data Science, especially 
+  when I need to expand my skillset to provide solutions. 
+  
   
 
   **On Resume Gaps:**
@@ -126,9 +130,12 @@ content:
           Two methods are used, one which relies on there being a significant linear trend over the 
           time period, and another that relies on longitudinal clustering. Both give similar results.
 
-          A simple html/css website was created to show interactive choropleth world maps. This can be found here:
-          [Rebuilding https://wulfnovak.github.io/, will re-add website shortly]
-       
+          A simple html/css website was created to show interactive choropleth world maps. 
+          
+          That can be found here:
+          - https://wulfnovak.github.io/docs/country_emissions
+          - https://wulfnovak.github.io/country_emissions
+              
           Key Skills: <mark>R</mark>, <mark>tidyverse</mark>, <mark>plotly</mark>, <mark>leaflet</mark>, <mark>gganimate</mark>, <mark>data visualization</mark>, <mark>longitudinal clustering</mark>
 
       - title: Time Series Model Comparison
@@ -223,13 +230,11 @@ content:
   #       description: | # this will include new lines to allow paragraphs
   #         Dean's List - Vice President of the Statistics Club
 
-  - title: About Me Section
+  - title: About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Other interests alongside those in machine learning and programming:
-      - Triathlon
-      - Business Strategy and Startups
-      - Jazz Saxophone
+      Though much of my time is devoted to bettering my programming ability and learning new machine learning techniques, that's not all that I do!
+      My time is also spent training for triathlons, reading about business strategy and startups, and playing jazz.  
     #  - Work/Study in local coffee shops
 
 # Footer
