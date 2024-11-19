@@ -2,3 +2,5 @@ theme: jekyll-theme-minimal
 title: Homepage for Emissions Data Analysis Visualizations
 description: World Map HTML visualizations
 permalink: /country_emissions/
+include:
+  - "index.html" 
