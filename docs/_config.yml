@@ -50,8 +50,8 @@ about_title: Job Search
 about_content: | # this will include new lines to allow paragraphs
   Complementary to my resume, this simple website explains the gaps on my resume and several projects undertaken while unemployed. 
   Though my resume and projects may not match the perfect candidate, I am happy to build skills to solve your team's needs. 
-  I sincerely enjoy finding where organizations and clients can improve their processes and products with Data Science, especially 
-  when solutions require me to grow my Machine Learning and programming knowledge. 
+# I sincerely enjoy finding where organizations and clients can improve their processes and products with Data Science, especially 
+# when solutions require me to grow my Machine Learning and programming knowledge. 
   
   
 
@@ -134,7 +134,6 @@ content:
           
           That can be found here:
           - <a href="https://wulfnovak.github.io/country_emissions">Simple Country Emissions Choropleth Maps</a> 
-          - (https://wulfnovak.github.io/country_emissions)
               
           Key Skills: <mark>R</mark>, <mark>tidyverse</mark>, <mark>plotly</mark>, <mark>leaflet</mark>, <mark>gganimate</mark>, <mark>data visualization</mark>, <mark>longitudinal clustering</mark>
 
