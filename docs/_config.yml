@@ -50,11 +50,8 @@ about_title: Job Search
 about_content: | # this will include new lines to allow paragraphs
   Complementary to my resume, this simple website explains the gaps on my resume and several projects undertaken while unemployed. 
   Though my resume and projects may not match the perfect candidate, I am happy to build skills to solve your team's needs. 
-# I sincerely enjoy finding where organizations and clients can improve their processes and products with Data Science, especially 
-# when solutions require me to grow my Machine Learning and programming knowledge. 
   
   
-
   **On Resume Gaps:**
 
   From Wiland to E Source - Resigned from Wiland to study for the GRE, apply to PhD programs, and volunteer. After not being accepted to my school of choice, I re-entered the job market and began working at E Source.
@@ -89,7 +86,7 @@ content:
           Model Pipeline: 
           - https://github.com/WulfNovak/Meta-Transaction-Risk-Classification/blob/main/meta_ensemble_pipeline.ipynb
        
-          Key Skills: <mark>Python</mark>, <mark>Scikit Learn</mark>, <mark>Pandas</mark>, <mark>Seaborn</mark>, <mark>Numpy</mark>, <mark>LightGBM</mark>, <mark>Machine Learning Pipeline</mark>
+          Key Skills: <mark>Python</mark>, <mark>Scikit Learn</mark>, <mark>Pandas</mark>, <mark>Seaborn</mark>, <mark>Numpy</mark>, <mark>LightGBM</mark>
         # title: Meta Transaction Risk Classification
         # link: github.com/wulfnovak
         # # link_text: Project Website
