@@ -1,7 +1,6 @@
 # Site
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
-
 # Content configuration version
 version: 2
 
@@ -83,8 +82,7 @@ content:
           pipeline that creates cross validated and fine-tuned models, gives results, and places
           into Voting and Stacking ensembles.
 
-          Model Pipeline: 
-          - https://github.com/WulfNovak/Meta-Transaction-Risk-Classification/blob/main/meta_ensemble_pipeline.ipynb
+          - <a href="https://github.com/WulfNovak/Meta-Transaction-Risk-Classification/blob/main/meta_ensemble_pipeline.ipynb">Here is the notebook for the model pipeline </a> 
        
           Key Skills: <mark>Python</mark>, <mark>Scikit Learn</mark>, <mark>Pandas</mark>, <mark>Seaborn</mark>, <mark>Numpy</mark>, <mark>LightGBM</mark>
         # title: Meta Transaction Risk Classification
@@ -126,11 +124,8 @@ content:
           This project categorizes countries as having rising or declining emissions from 2000-2022. 
           Two methods are used, one which relies on there being a significant linear trend over the 
           time period, and another that relies on longitudinal clustering. Both give similar results.
-
-          A simple html/css website was created to show interactive choropleth world maps. 
-          
-          That can be found here:
-          - <a href="https://wulfnovak.github.io/country_emissions">Simple Country Emissions Choropleth Maps</a> 
+      
+          - <a href="https://wulfnovak.github.io/country_emissions/">A simple html/css website was created to show interactive choropleth world maps. </a> 
               
           Key Skills: <mark>R</mark>, <mark>tidyverse</mark>, <mark>plotly</mark>, <mark>leaflet</mark>, <mark>gganimate</mark>, <mark>data visualization</mark>, <mark>longitudinal clustering</mark>
 
