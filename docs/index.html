@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Country Emissions Visualizations</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 1px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+        #container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+        .left-container {
+            width: 33.33%;
+            background-color: #f0f0f0;
+            box-sizing: border-box;
+            display: grid;
+            border-right: 1px solid #ccc;
+            grid-template-rows: 1fr 3fr;
+            gap: 0;
+            padding: 0;
+            margin: 0;
+            gap: 1px
+        }
+        .top-left {
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+        }
+        .bottom-left {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            align-items: center; 
+            justify-content: center;
+            gap: 1px; 
+            width: 100%;
+            height: 100%; 
+            margin: 0;
+            padding: 0;
+        }
+        .map-button {
+            flex: 1 1 auto;
+            height: 100%;
+            font-size: 16px;
+            background-color: darkgrey;
+            border: none;
+            display: block;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin: 0;
+            padding: 0;
+            transition: 0.3s;
+            align-items: center;
+            justify-content: center;
+        }
+        .map-button:hover {opacity: .6}
+        .map-button.selected {
+            background-color: lightgrey;
+        }
+        #map-container {
+            width: 66.67%;
+            height: 100%;
+            display: flex;
+            background-color: #f0f0f0;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        iframe {
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+            border: none;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="left-container">
+            <div class="top-left">
+                <h1>Country Total Emissions Visualizations</h1>
+                <p>The following interactive maps are created on total emissions data, and transformations of this variable from 2000 to 2022. More on methodology is available in the rising_declining_data_prep.R script. If the target variable has a significant negative slope, its emissions are declining. 
+                    A significant positive slope indicates the emissions are rising. The Min-Max Normalization is as follows:
+                    (x - min(x)) / (max(x) - min(x)), at the country level. This has been used to more easily compare between countries regardless of absolute emissions. Currently unable to correctly scale the animated map. </p>
+            </div>
+            <div class="bottom-left">
+                <button class="map-button" onclick="loadMap('tot_emissions_trend.html')">Total Emissions Slope (Not Normalized)</button>
+                <button class="map-button" onclick="loadMap('trend_choropleth.html')">Min-Max Normalized Slope</button>
+                <button class="map-button" onclick="loadMap('binary_trend_map.html')">Rising / Declining Emissions Binary</button>
+                <button class="map-button" onclick="loadMap('cluster_binary_trend.html')">Rising / Declining Emissions by Longitudinal Clustering</button>
+                <button class="map-button" onclick="loadMap('per_capita_trend.html')">Rising / Declining Trend Per Capita</button>
+                <button class="map-button" onclick="loadMap('norm_tot_animation.gif')">Animated Normalized Emissions from 2000-2022</button>
+            </div>
+        </div>
+        <div id="map-container">
+            <iframe id="map-frame" src="tot_emissions_trend.html"></iframe>
+        </div>
+        
+        <script>
+            let selectedButton = null;
+    
+            function loadMap(mapFile, button) {
+                // Update the iframe src to load the selected map
+                document.getElementById('map-frame').src = mapFile;
+
+                // Change the button appearance
+                if (selectedButton) {
+                    selectedButton.classList.remove('selected');
+                }
+                button.classList.add('selected');
+                selectedButton = button;
+            }
+        </script>
+
+</body>
+</html>
