@@ -76,7 +76,7 @@ content:
         # quote: >
         #   Data Analysis in R 
         description: | # this will include new lines to allow paragraphs
-          Analyzes Alzheimers Disease and Health Again Data and provides functions that: 
+          Analyzes Alzheimers Disease and Health Aging Data and provides functions that: 
           Generate statistics for variables of interest and missing data, 
           imputes data at the stratum level (opted against using), and visualizes data 
           by given question and stratum over time.
@@ -102,7 +102,7 @@ content:
        
           Key Skills: <mark>Deep Learning</mark>, <mark>Scikit Learn</mark>, <mark>tensorflow</mark>, <mark>keras</mark>, <mark>pandas</mark>
 
-            - title: Rising or Declining Country Emissions
+      - title: Rising or Declining Country Emissions
         #link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
         # link_text: Project Website
         additional_links:
