@@ -47,16 +47,14 @@ linkedin_username: wulf-novak
 about_title: Job Search
 #about_profile_image: images/profile.jpg # consider omitting to prevent bias
 about_content: | # this will include new lines to allow paragraphs
-  Complementary to my resume, this simple website explains the gaps on my resume and several projects undertaken while unemployed. 
-  Though my resume and projects may not match the perfect candidate, I am happy to build skills to solve your team's needs. 
+  Hello!
   
+  Complementary to my resume, this simple website explains the recent gap on my resume and several projects undertaken while unemployed. 
+  Though my resume and projects may not match the perfect candidate, I am happy to build skills that solve your team’s needs.
   
-  **On Resume Gaps:**
-
-  From Wiland to E Source - Resigned from Wiland to study for the GRE, apply to PhD programs, and volunteer. After not being accepted to my school of choice, I re-entered the job market and began working at E Source.
-
-  From E Source to Now - After being let go from E Source unexpectantly, I have maintained a full-time 'job' of job searching. In addition to applications and interviews, this has included: 
-  Learning Python, a Generative AI Course on LLMs, maintaining R and SQL skill, and upskilling through the projects listed below. 
+  At my previous role, a Data Scientist at E Source, one of the techniques I used to select the number of clusters for a clustering algorithm was disputed, 
+  and I was let go. Though I lost the opportunity to challenge and collaborate with colleagues, I gained time to begin in an area I was lacking; Python. 
+  Since then, I have improved drastically at Python, SQL, and learned through experimentation - the following are some projects showing that work. 
 
 content:
   - title: Projects # Title for the section
@@ -76,9 +74,9 @@ content:
         # quote: >
         #   Data Analysis in R 
         description: | # this will include new lines to allow paragraphs
-          Analyzes Alzheimers Disease and Health Aging Data and provides functions that: 
-          Generate statistics for variables of interest and missing data, 
-          imputes data at the stratum level (opted against using), and visualizes data 
+          Analyzed Alzheimers Disease and Health Aging Data, providing functions that: 
+          1) Generate statistics for variables of interest and missing data, 
+          2) imputes data at the stratum level, and 3) visualizes data 
           by given question and stratum over time.
        
           Key Skills: <mark>Pandas</mark>, <mark>Numpy</mark>, <mark>SeaBorn</mark>
@@ -96,9 +94,8 @@ content:
         # quote: >
         #   Data Analysis in R 
         description: | # this will include new lines to allow paragraphs
-          LSTM time series prediction, along with automated grid search and saving of model weights.
-          
-          More to come.
+          A brief forray into Deep Learning with an LSTM time series prediction. I then create a grid search to 
+          test optimal parameters for the model, storing the results. 
        
           Key Skills: <mark>Deep Learning</mark>, <mark>Scikit Learn</mark>, <mark>tensorflow</mark>, <mark>keras</mark>, <mark>pandas</mark>
 
@@ -115,7 +112,7 @@ content:
         # quote: >
         #   Data Analysis in R 
         description: | # this will include new lines to allow paragraphs
-          This project categorizes countries as having rising or declining emissions from 2000-2022. 
+          Written in R, this project categorizes countries as having rising or declining emissions from 2000-2022. 
           Two methods are used, one which relies on there being a significant linear trend over the 
           time period, and another that relies on longitudinal clustering. Both give similar results.
       
@@ -124,23 +121,16 @@ content:
           Key Skills: <mark>R</mark>, <mark>tidyverse</mark>, <mark>plotly</mark>, <mark>leaflet</mark>, <mark>gganimate</mark>, <mark>data visualization</mark>, <mark>longitudinal clustering</mark>
 
       - title: Meta Transaction Risk Classification
-        #link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
-        # link_text: Project Website
         additional_links:
           - title:  github.com/wulfnovak/Meta-Transaction-Risk-Classification
             icon: fab fa-github
             url: github.com/wulfnovak/Meta-Transaction-Risk-Classification
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   Data Analysis in R 
         description: | # this will include new lines to allow paragraphs
           This notebook analyzes pre-cleaned and simulated meta transaction data, 
           tests 4 model types with a range of hyperparameters
           utilizing Halving Grid Search and Bayesian Optimization. I then build a model
-          pipeline that creates cross validated and fine-tuned models, gives results, and places
-          into Voting and Stacking ensembles.
+          pipeline that cross validates and fine-tunes models. The results are discussed 
+          and final Voting and Stacking ensembles are compared with the initial models. 
 
           - <a href="https://github.com/WulfNovak/Meta-Transaction-Risk-Classification/blob/main/meta_ensemble_pipeline.ipynb">Here is the notebook for the model pipeline </a> 
        
@@ -203,8 +193,9 @@ content:
   - title: About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Though much of my time is devoted to bettering my programming ability and learning new machine learning techniques, that's not all that I do!
-      My time is also spent training for triathlons, reading about business strategy and startups, and playing jazz saxophone.  
+      Much of my time is devoted to bettering my programming ability and learning new machine learning techniques, but that's not all that I do!
+      I also listen and collaborate as a volunteer in community bands and enjoy the consistent challenge of triathlon.
+    # I have volunteered as a saxophonist in community orchestra, concert, and jazz bands, and seek to complete a half-ironman in this next year. 
     #  - Work/Study in local coffee shops
 
 # Footer
