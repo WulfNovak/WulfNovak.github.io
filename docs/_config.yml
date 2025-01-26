@@ -47,12 +47,10 @@ linkedin_username: wulf-novak
 about_title: Job Search
 #about_profile_image: images/profile.jpg # consider omitting to prevent bias
 about_content: | # this will include new lines to allow paragraphs
-  Complementary to my resume, this simple website explains the recent gap on my resume and several projects undertaken while unemployed. 
-  Though my resume and projects may not match the perfect candidate, I am happy to build skills that solve your team’s needs.
-  
-  At my previous role, a Data Scientist at E Source, one of the techniques I used to select the number of clusters for a clustering algorithm was disputed, 
-  and I was let go. Though I lost the opportunity to challenge and collaborate with colleagues, I gained time to begin in an area I was lacking; Python. 
-  Since then, I have improved drastically at Python, SQL, and learned through experimentation - the following are some projects showing that work. 
+
+  Following my previous role, a shift from R to Python programming has occurred - some of that is showcased here. Projects showing a growing joy and familiarity with  
+  Generative AI models will soon be added to this site, made possible by distributed cloud compute from Runpod, a GCP / Azure / AWS alternative. Looking
+  forward to contributing this growing skillset and passion to future impactful work.
 
 content:
   - title: Projects # Title for the section
