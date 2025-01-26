@@ -127,8 +127,8 @@ content:
         # quote: >
         #   Data Analysis in R 
         description: | # this will include new lines to allow paragraphs
-          A brief forray into Deep Learning with an LSTM time series prediction. I then create a grid search to 
-          test optimal parameters for the model, storing the results. 
+          Deep Learning experimentation with a LSTM model for time series prediction. A model pipeline
+          that saves model weights for different hyperparamters is implemented is implemented with Keras.
        
           Key Skills: <mark>Deep Learning</mark>, <mark>Scikit Learn</mark>, <mark>tensorflow</mark>, <mark>keras</mark>, <mark>pandas</mark>
 
