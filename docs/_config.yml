@@ -55,6 +55,24 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+      - title: Deepfake detection
+        #link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
+        # link_text: Project Website
+        additional_links:
+          - title:  github.com/WulfNovak/deepfake_detection
+            icon: fab fa-github
+            url: https://github.com/WulfNovak/deepfake_detection
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   Data Analysis in R 
+        description: | # this will include new lines to allow paragraphs
+          Beginning with datasets composed of fake and real facial images, this notebook automates the 
+          comparison between pre-trained deepfake image classification models across 4 datasets.
+       
+          Key Skills: <mark>transformers</mark>, <mark>sci-kit learn</mark>, <mark>SeaBorn</mark>
+          
       - title: Meta Transaction Risk Classification
         additional_links:
           - title:  github.com/wulfnovak/Meta-Transaction-Risk-Classification
@@ -91,26 +109,6 @@ content:
           - <a href="https://wulfnovak.github.io/country_emissions/">A simple html/css website was created to show interactive choropleth world maps. </a> 
               
           Key Skills: <mark>R</mark>, <mark>tidyverse</mark>, <mark>plotly</mark>, <mark>leaflet</mark>, <mark>gganimate</mark>, <mark>data visualization</mark>, <mark>longitudinal clustering</mark>
-          
-      - title: Python Data Cleaning
-        #link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
-        # link_text: Project Website
-        additional_links:
-          - title:  github.com/WulfNovak/python_data_cleaning
-            icon: fab fa-github
-            url: https://github.com/WulfNovak/python_data_cleaning
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   Data Analysis in R 
-        description: | # this will include new lines to allow paragraphs
-          Analyzed Alzheimers Disease and Health Aging Data, providing functions that: 
-          1) Generate statistics for variables of interest and missing data, 
-          2) imputes data at the stratum level, and 3) visualizes data 
-          by given question and stratum over time.
-       
-          Key Skills: <mark>Pandas</mark>, <mark>Numpy</mark>, <mark>SeaBorn</mark>
 
       - title: Time Series Model Comparison
         #link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
