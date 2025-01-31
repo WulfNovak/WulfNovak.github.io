@@ -124,7 +124,7 @@ content:
         #   Data Analysis in R 
         description: | # this will include new lines to allow paragraphs
           Deep Learning experimentation with a LSTM model for time series prediction. A model pipeline
-          that saves model weights for different hyperparamters is implemented is implemented with Keras.
+          that saves model weights for different hyperparamters is implemented with Keras.
        
           Key Skills: <mark>Deep Learning</mark>, <mark>Scikit Learn</mark>, <mark>tensorflow</mark>, <mark>keras</mark>, <mark>pandas</mark>
 
