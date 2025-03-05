@@ -110,23 +110,23 @@ content:
               
           Key Skills: <mark>R</mark>, <mark>tidyverse</mark>, <mark>plotly</mark>, <mark>leaflet</mark>, <mark>gganimate</mark>, <mark>data visualization</mark>, <mark>longitudinal clustering</mark>
 
-      - title: Time Series Model Comparison
-        #link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
-        # link_text: Project Website
-        additional_links:
-          - title:  github.com/WulfNovak/time_series_model_comparison
-            icon: fab fa-github
-            url: https://github.com/WulfNovak/time_series_model_comparison
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   Data Analysis in R 
-        description: | # this will include new lines to allow paragraphs
-          Deep Learning experimentation with a LSTM model for time series prediction. A model pipeline
-          that saves model weights for different hyperparamters is implemented with Keras.
+      # - title: Time Series Model Comparison
+      #   #link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
+      #   # link_text: Project Website
+      #   additional_links:
+      #     - title:  github.com/WulfNovak/time_series_model_comparison
+      #       icon: fab fa-github
+      #       url: https://github.com/WulfNovak/time_series_model_comparison
+      #     # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #     #   icon: fab fa-github
+      #     #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+      #   # quote: >
+      #   #   Data Analysis in R 
+      #   description: | # this will include new lines to allow paragraphs
+      #     Deep Learning experimentation with a LSTM model for time series prediction. A model pipeline
+      #     that saves model weights for different hyperparamters is implemented with Keras.
        
-          Key Skills: <mark>Deep Learning</mark>, <mark>Scikit Learn</mark>, <mark>tensorflow</mark>, <mark>keras</mark>, <mark>pandas</mark>
+      #     Key Skills: <mark>Deep Learning</mark>, <mark>Scikit Learn</mark>, <mark>tensorflow</mark>, <mark>keras</mark>, <mark>pandas</mark>
 
 
 
