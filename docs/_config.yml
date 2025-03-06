@@ -43,7 +43,7 @@ linkedin_username: wulf-novak
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
-About Section
+#About Section:
 about_title: Machine Learning / AI
 #about_profile_image: images/profile.jpg # consider omitting to prevent bias
 about_content: | # this will include new lines to allow paragraphs
