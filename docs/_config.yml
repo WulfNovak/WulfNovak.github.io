@@ -71,7 +71,7 @@ content:
           Beginning with datasets composed of fake and real facial images, this notebook gives comparison
           between pretrained deepfake image classification models across 4 datasets.
        
-          Key Skills: <mark>Huggingface</mark>, </mark>Cloud Compute</mark>, <mark>Scikit Learn</mark>, <mark>Seaborn</mark>
+          Key Skills: <mark>Huggingface</mark>, <mark>Cloud Compute</mark>, <mark>Scikit Learn</mark>, <mark>Seaborn</mark>
           
           
       - title: Meta Transaction Risk Classification
