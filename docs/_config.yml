@@ -47,8 +47,7 @@ linkedin_username: wulf-novak
 about_title: Job Search
 #about_profile_image: images/profile.jpg # consider omitting to prevent bias
 about_content: | # this will include new lines to allow paragraphs
-
-  Following my previous role, a shift from R to Python programming has occurred, some which is showcased here. As my textbook-driven independent study of Generative AI and Pytorch continues, projects showing a growing joy and familiarity with Generative AI models will soon be added to this site. Looking forward to contributing this growing skillset and passion to future impactful work.
+  
 
 content:
   - title: Projects # Title for the section
@@ -68,7 +67,7 @@ content:
         # quote: >
         #   Data Analysis in R 
         description: | # this will include new lines to allow paragraphs
-          Automated model demand forecasting optimization pipeline, with key metrics and visualizations stored for comparison using MLflow.
+          Developed an automated demand forecasting pipeline, optimizing models across n=6 countries, with key metrics and visualizations logged for comparison using MLflow.
        
           Key Skills: <mark>Forecasting</mark>, <mark>MLOps (MLflow)</mark>, <mark>Scikit Learn</mark>, <mark>Seaborn</mark>, <mark>testing</mark>
           
