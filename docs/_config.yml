@@ -55,6 +55,23 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+      - title: Demand Forecasting MLOps
+        #link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
+        # link_text: Project Website
+        additional_links:
+          - title:  github.com/WulfNovak/deepfake_detection
+            icon: fab fa-github
+            url: https://github.com/WulfNovak/deepfake_detection
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   Data Analysis in R 
+        description: | # this will include new lines to allow paragraphs
+          Automated model demand forecasting optimization pipeline, with key metrics and visualizations stored for comparison using MLflow.
+       
+          Key Skills: <mark>Forecasting</mark>, <mark>MLOps (MLflow)</mark>, <mark>Scikit Learn</mark>, <mark>Seaborn</mark>, <mark>testing</mark>
+          
       - title: Deepfake Detection
         #link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
         # link_text: Project Website
