@@ -58,9 +58,9 @@ content:
         #link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
         # link_text: Project Website
         additional_links:
-          - title:  github.com/WulfNovak/deepfake_detection
+          - title:  https://github.com/WulfNovak/load_forecasting_analysis
             icon: fab fa-github
-            url: https://github.com/WulfNovak/deepfake_detection
+            url: https://github.com/WulfNovak/load_forecasting_analysis
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
