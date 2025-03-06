@@ -69,7 +69,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Developed an automated demand forecasting pipeline, optimizing models across n=6 countries, with key metrics and visualizations logged for comparison using MLflow.
        
-          Key Skills: <mark>Forecasting</mark>, <mark>MLOps (MLflow)</mark>, <mark>Scikit Learn</mark>, <mark>Seaborn</mark>, <mark>testing</mark>
+          Key Skills: <mark>Forecasting</mark>, <mark>MLOps (MLflow)</mark>, <mark>Scikit Learn</mark>
           
       - title: Deepfake Detection
         #link: https://github.com/WulfNovak/Rising-Or-Declining-Country-Emissions
