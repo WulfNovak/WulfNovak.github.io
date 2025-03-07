@@ -96,11 +96,8 @@ content:
             icon: fab fa-github
             url: github.com/wulfnovak/Meta-Transaction-Risk-Classification
         description: | # this will include new lines to allow paragraphs
-          This notebook analyzes pre-cleaned and simulated meta transaction data, 
-          tests 4 model types with a range of hyperparameters
-          utilizing Halving Grid Search and Bayesian Optimization. I then build a model
-          pipeline that cross validates and fine-tunes models. The results are discussed 
-          and final Voting and Stacking ensembles are compared with the initial models. 
+          	With simulated transaction data, I experiment with parameter search techniques, resulting in a fine-tuned model pipeline built to classify fraud.
+ 
 
           - <a href="https://github.com/WulfNovak/Meta-Transaction-Risk-Classification/blob/main/meta_ensemble_pipeline.ipynb">Here is the notebook for the model pipeline </a> 
        
@@ -119,9 +116,7 @@ content:
         # quote: >
         #   Data Analysis in R 
         description: | # this will include new lines to allow paragraphs
-          Written in R, this project categorizes countries as having rising or declining emissions from 2000-2022. 
-          Two methods are used, one which relies on there being a significant linear trend over the 
-          time period, and another that relies on longitudinal clustering. Both give similar results.
+          Written in R, this project categorizes and visualizes countries with rising or declining emissions from 2000-2022. I prepare the data and compare two methods, significant linear trends and longitudinal clustering. 
       
           - <a href="https://wulfnovak.github.io/country_emissions/">A simple html/css website was created to show interactive choropleth world maps. </a> 
               
