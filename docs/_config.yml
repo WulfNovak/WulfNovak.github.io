@@ -97,9 +97,7 @@ content:
             url: github.com/wulfnovak/Meta-Transaction-Risk-Classification
         description: | # this will include new lines to allow paragraphs
           With simulated transaction data, I experiment with parameter search techniques, resulting in a fine-tuned model pipeline built to classify fraud.
- 
 
-  #   - <a href="https://github.com/WulfNovak/Meta-Transaction-Risk-Classification/blob/main/meta_ensemble_pipeline.ipynb">Here is the notebook for the model pipeline </a> 
        
           Key Skills: <mark>Python</mark>, <mark>Scikit Learn</mark>, <mark>Pandas</mark>, <mark>Seaborn</mark>, <mark>Numpy</mark>, <mark>LightGBM</mark>
 
