@@ -47,7 +47,8 @@ linkedin_username: wulf-novak
 about_title: Machine Learning / AI
 #about_profile_image: images/profile.jpg # consider omitting to prevent bias
 about_content: | # this will include new lines to allow paragraphs
-    Having a deep curiosity for ML, MLOps, and AI, I am thrilled to be in a constantly evolving field. Here are a few of my projects. Looking forward to adding work showcasing my growing joy and familiarity with Generative AI soon.
+    Being Keenly Interested personally and professionally in Machine Learning and AI, I am thrilled to be in a constantly evolving field. 
+    Below are some of my recent projects. Currently, I am expanding my expertise in Generative AI and Forecasting models, with a focus on Python code resulting in scalable, high-performance solutions.
 
 content:
   - title: Projects # Title for the section
