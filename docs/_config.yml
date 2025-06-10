@@ -47,8 +47,8 @@ linkedin_username: wulf-novak
 about_title: Machine Learning / AI
 #about_profile_image: images/profile.jpg # consider omitting to prevent bias
 about_content: | # this will include new lines to allow paragraphs
-    Being keenly interested in Machine Learning and AI, I am thrilled to be in a constantly evolving field. 
-    Here are a few recent experiments. 
+    Being keenly interested in Machine Learning and AI, I am thrilled to be in a constantly evolving field - 
+    below are a few experiments. 
 
 content:
   - title: Projects # Title for the section
