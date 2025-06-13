@@ -193,11 +193,11 @@ content:
   #       description: | # this will include new lines to allow paragraphs
   #         Dean's List - Vice President of the Statistics Club
 
-  - title: About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Much of my time is devoted to bettering my programming ability and learning new machine learning techniques, but that's not all that I do!
-      I also listen and collaborate as a volunteer in community bands and enjoy the consistent challenge of triathlon.
+  # - title: About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Much of my time is devoted to bettering my programming ability and learning new machine learning techniques, but that's not all that I do!
+  #     I also listen and collaborate as a volunteer in community bands and enjoy the consistent challenge of triathlon.
     # I have volunteered as a saxophonist in community orchestra, concert, and jazz bands, and seek to complete a half-ironman in this next year. 
     #  - Work/Study in local coffee shops
 
