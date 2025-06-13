@@ -85,7 +85,7 @@ content:
         # quote: >
         #   Data Analysis in R 
         description: | # this will include new lines to allow paragraphs
-          An experiment with Huggingface and GPU service providers, pretrained HuggingFace deepfake image classification models are compared across 4 real/deepfake facial datasets. 
+          An experiment with Huggingface and GPU service providers; pretrained deepfake image classification models are compared across 4 real/deepfake facial datasets. 
        
           Key Skills: <mark>Huggingface</mark>, <mark>Cloud Compute</mark>, <mark>Scikit Learn</mark>, <mark>Seaborn</mark>
           
