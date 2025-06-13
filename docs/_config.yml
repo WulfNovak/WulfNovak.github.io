@@ -85,8 +85,7 @@ content:
         # quote: >
         #   Data Analysis in R 
         description: | # this will include new lines to allow paragraphs
-          Beginning with datasets composed of fake and real facial images, this notebook gives comparison
-          between pretrained deepfake image classification models across 4 datasets.
+          An experiment with Huggingface and GPU service providers, pretrained HuggingFace deepfake image classification models are compared across 4 real/deepfake facial datasets. 
        
           Key Skills: <mark>Huggingface</mark>, <mark>Cloud Compute</mark>, <mark>Scikit Learn</mark>, <mark>Seaborn</mark>
           
@@ -97,7 +96,7 @@ content:
             icon: fab fa-github
             url: github.com/wulfnovak/Meta-Transaction-Risk-Classification
         description: | # this will include new lines to allow paragraphs
-          With simulated transaction data, I experiment with parameter search techniques, resulting in a fine-tuned model pipeline built to classify fraud.
+          As a first Python venture, this notebook contains a data pipeline which classifies fraud given simulated meta transaction data. 
 
        
           Key Skills: <mark>Python</mark>, <mark>Scikit Learn</mark>, <mark>Pandas</mark>, <mark>Seaborn</mark>, <mark>Numpy</mark>, <mark>LightGBM</mark>
@@ -115,7 +114,7 @@ content:
         # quote: >
         #   Data Analysis in R 
         description: | # this will include new lines to allow paragraphs
-          Written in R, this project categorizes and visualizes countries with rising or declining emissions from 2000-2022. I prepare the data and compare two methods, significant linear trends and longitudinal clustering. 
+          Written in R, this project categorizes and visualizes countries with rising or declining emissions from 2000-2022. After data preparation, two methods are compared; significant linear trends and longitudinal clustering. 
       
           - <a href="https://wulfnovak.github.io/country_emissions/">Simple html/css website to show interactive choropleth world maps. </a> 
               
