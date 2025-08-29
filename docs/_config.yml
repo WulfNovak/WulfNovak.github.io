@@ -47,8 +47,7 @@ linkedin_username: wulf-novak
 about_title: Machine Learning / AI
 #about_profile_image: images/profile.jpg # consider omitting to prevent bias
 about_content: | # this will include new lines to allow paragraphs
-    Being keenly interested in Machine Learning and AI, I am thrilled to be in a constantly evolving field - 
-    below are a few experiments. 
+    Below are a few experiments while shifting from R to Python as a primary language. In the previous months has been an obsession for researching and automating competitive model creation for Kaggle competitions. 
 
 content:
   - title: Projects # Title for the section
