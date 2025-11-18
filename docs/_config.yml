@@ -47,7 +47,7 @@ linkedin_username: wulf-novak
 about_title: Machine Learning / AI
 #about_profile_image: images/profile.jpg # consider omitting to prevent bias
 about_content: | # this will include new lines to allow paragraphs
-    Below are a few experiments while shifting from R to Python as a primary language. In the previous months has been an obsession for researching and automating competitive model creation for Kaggle competitions. 
+    Below is a sample of past experiments. Previous months have included building ML pipelines for competitive Kaggle competitions, and more recently, experiments with building agentic workflows.
 
 content:
   - title: Projects # Title for the section
